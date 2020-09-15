@@ -5,7 +5,7 @@ pipeline {
        stage("build") {
        
           steps {
-              echo 'this is build'
+              echo 'this is build.  Now it has changed'
           
           }
        }
