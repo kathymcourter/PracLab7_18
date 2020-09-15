@@ -6,7 +6,7 @@ pipeline {
        
           steps {
               echo 'this is build.  Now it has changed'
-              echo 'this is another change and a third change'
+              echo 'final change'
           }
        }
        stage("deploy") {
