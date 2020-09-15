@@ -1,6 +1,6 @@
-pipeline (
+pipeline {
     agent any
-    stages (
+    stages {
     
        stage("checkout") {
        
@@ -20,8 +20,7 @@ pipeline (
        
           steps {
               echo 'this is deploy'
-          
           }
        }
     }
-)
+}
