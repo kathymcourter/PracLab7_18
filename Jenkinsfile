@@ -6,7 +6,7 @@ pipeline {
        
           steps {
               echo 'this is build.  Now it has changed'
-          
+              echo 'this is another change'
           }
        }
        stage("deploy") {
